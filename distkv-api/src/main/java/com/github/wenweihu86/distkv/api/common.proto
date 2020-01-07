@@ -1,0 +1,25 @@
+syntax="proto3";
+
+package api;
+option java_package = "com.github.wenweihu86.distkv.api";
+option java_outer_classname = "CommonMessage";
+
+enum ResCode {
+    RES_CODE_SUCCESS = 0;
+    RES_CODE_FAIL = 1;
+}
+
+message BaseResponse {
+    ResCode res_code = 1;
+    string res_msg = 2;
+}
+
+enum RequestType {
+    SET = 0;
+    DELETE = 1;
+    GET = 2;
+}
+
+message RaftMetaData {
+    RequestType requestType = 1;
+}
