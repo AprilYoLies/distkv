@@ -6,6 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -24,9 +25,21 @@ public class GlobalConf {
         toml = new Toml().read(file);
     }
 
+    public GlobalConf(String toml) {
+        File file = new File(toml);
+        this.toml = new Toml().read(file);
+    }
+
     public static GlobalConf getInstance() {
         if (instance == null) {
             instance = new GlobalConf();
+        }
+        return instance;
+    }
+
+    public static GlobalConf getInstance(String toml) {
+        if (instance == null) {
+            instance = new GlobalConf(toml);
         }
         return instance;
     }

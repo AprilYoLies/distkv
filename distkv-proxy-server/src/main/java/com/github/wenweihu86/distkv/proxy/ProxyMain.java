@@ -9,7 +9,11 @@ import com.github.wenweihu86.rpc.server.RPCServer;
 public class ProxyMain {
     public static void main(String[] args) {
         // read conf
-        GlobalBean globalBean = GlobalBean.getInstance();
+        GlobalBean globalBean;
+        if (args.length == 0)
+            globalBean = GlobalBean.getInstance();
+        else
+            globalBean = GlobalBean.getInstance(args[0]);
 
         // 初始化RPCServer
         RPCServer server = new RPCServer(globalBean.getPort());

@@ -18,7 +18,12 @@ import java.util.List;
 public class MetaMain {
     public static void main(String[] args) {
         // read conf
-        GlobalConf conf = GlobalConf.getInstance();
+        GlobalConf conf;
+        if (args.length == 0) {
+            conf = GlobalConf.getInstance();
+        } else {
+            conf = GlobalConf.getInstance(args[0]);
+        }
         RaftMessage.Server localServer = conf.getLocalServer();
         List<RaftMessage.Server> servers = conf.getServers();
         String dataDir = conf.getString("data_dir");

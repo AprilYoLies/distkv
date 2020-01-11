@@ -36,9 +36,23 @@ public class GlobalBean {
         initRPCClient();
     }
 
+    public GlobalBean(String toml) {
+        File file = new File(toml);
+        this.toml = new Toml().read(file);
+        readServerShardingsConf();
+        initRPCClient();
+    }
+
     public static GlobalBean getInstance() {
         if (instance == null) {
             instance = new GlobalBean();
+        }
+        return instance;
+    }
+
+    public static GlobalBean getInstance(String toml) {
+        if (instance == null) {
+            instance = new GlobalBean(toml);
         }
         return instance;
     }
@@ -84,7 +98,7 @@ public class GlobalBean {
         options.setReadTimeoutMillis(
                 serverConf.getLong("read_timeout_ms").intValue());
         LOG.info("reading rpc client options conf, " +
-                "connect_timeout_ms={}, write_timeout_ms={}, read_timeout_ms={}",
+                        "connect_timeout_ms={}, write_timeout_ms={}, read_timeout_ms={}",
                 options.getConnectTimeoutMillis(),
                 options.getWriteTimeoutMillis(),
                 options.getReadTimeoutMillis());

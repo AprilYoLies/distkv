@@ -3,4 +3,9 @@
 *.iml
 target
 .DS_Store
-
+meta1_data
+meta2_data
+meta3_data
+store1_data
+store2_data
+store3_data
