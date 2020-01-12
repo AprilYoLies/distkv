@@ -24,7 +24,7 @@ public class ProxyAPIImpl implements ProxyAPI {
 
         // 随机获取store server的sharding index
         long keySign = ProxyUtils.getMd5Sign(request.getKey().toByteArray());
-        GlobalBean globalBean = GlobalBean.getInstance();
+        GlobalBean globalBean = GlobalBean.getInstance();   // 拿到的 GlobalBean 持有对应的 rpc 客户端
         Map<Integer, ShardingClient> storeServerShardingMap = globalBean.getStoreServerShardingMap();
         List<Integer> indexList = new ArrayList<>(storeServerShardingMap.keySet());
         int randInt = ThreadLocalRandom.current().nextInt(0, indexList.size());
@@ -33,8 +33,8 @@ public class ProxyAPIImpl implements ProxyAPI {
 
         // 请求meta server，保存keySign -> sharding映射信息
         List<ShardingClient> metaServerShardings = globalBean.getMetaServerShadings();
-        int metaShardingId = (int) (keySign % metaServerShardings.size());
-        ShardingClient metaShardingClient = metaServerShardings.get(metaShardingId);
+        int metaShardingId = (int) (keySign % metaServerShardings.size());  // 哈希
+        ShardingClient metaShardingClient = metaServerShardings.get(metaShardingId);    // 获取写入的分区
         MetaMessage.SetRequest metaRequest = MetaMessage.SetRequest.newBuilder()
                 .setKeySign(keySign).setShardingIndex(shardingIndex).build();
         MetaMessage.SetResponse metaResponse = metaShardingClient.getMetaAPI().set(metaRequest);

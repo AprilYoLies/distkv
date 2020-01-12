@@ -32,14 +32,14 @@ public class GlobalBean {
         String fileName = "/proxy.toml";
         File file = new File(getClass().getResource(fileName).getFile());
         toml = new Toml().read(file);
-        readServerShardingsConf();
-        initRPCClient();
+        readServerShardingsConf();  // 将配置文件中的内容解析
+        initRPCClient();    // 让 shardingClient 分别持有 MetaAPI 和 StoreAPI 对应的 rpc 客户端
     }
 
     public GlobalBean(String toml) {
         File file = new File(toml);
         this.toml = new Toml().read(file);
-        readServerShardingsConf();
+        readServerShardingsConf();  // 将 toml 配置文件中的信息解析到 metaServerShadings 和 storeServerShardingMap 中
         initRPCClient();
     }
 
@@ -69,26 +69,28 @@ public class GlobalBean {
         return storeServerShardingMap;
     }
 
+    // 让 shardingClient 分别持有 MetaAPI 和 StoreAPI 对应的 rpc 客户端
     private void initRPCClient() {
         Toml metaServerConf = toml.getTable("meta_server");
-        RPCClientOptions metaOptions = readRPCClientOptions(metaServerConf);
+        RPCClientOptions metaOptions = readRPCClientOptions(metaServerConf);    // 读取参数信息
         for (ShardingClient shardingClient : metaServerShadings) {
             RPCClient rpcClient = new RPCClient(shardingClient.getServers(), metaOptions);
             shardingClient.setRpcClient(rpcClient);
             MetaAPI metaAPI = RPCProxy.getProxy(rpcClient, MetaAPI.class);
-            shardingClient.setMetaAPI(metaAPI);
+            shardingClient.setMetaAPI(metaAPI); // 这里是每个 shardingClient 都持有了 MetaAPI 对应的 rpc 客户端
         }
 
         Toml storeServerConf = toml.getTable("store_server");
-        RPCClientOptions storeOptions = readRPCClientOptions(storeServerConf);
+        RPCClientOptions storeOptions = readRPCClientOptions(storeServerConf);  // 读取参数信息
         for (ShardingClient shardingClient : storeServerShardingMap.values()) {
             RPCClient rpcClient = new RPCClient(shardingClient.getServers(), storeOptions);
             shardingClient.setRpcClient(rpcClient);
             StoreAPI storeAPI = RPCProxy.getProxy(rpcClient, StoreAPI.class);
-            shardingClient.setStoreAPI(storeAPI);
+            shardingClient.setStoreAPI(storeAPI);   // 这里是每个 shardingClient 都持有了 StoreAPI 对应的 rpc 客户端
         }
     }
 
+    // 读取参数信息
     private RPCClientOptions readRPCClientOptions(Toml serverConf) {
         RPCClientOptions options = new RPCClientOptions();
         options.setConnectTimeoutMillis(
@@ -105,23 +107,25 @@ public class GlobalBean {
         return options;
     }
 
+    // 将 toml 配置文件中的信息解析到 metaServerShadings 和 storeServerShardingMap 中
     private void readServerShardingsConf() {
         metaServerShadings = new ArrayList<>();
         Toml metaServerConf = toml.getTable("meta_server");
         List<Toml> shardingConfList = metaServerConf.getTables("sharding");
         for (Toml shardingConf : shardingConfList) {
-            metaServerShadings.add(readShardingConf(shardingConf));
+            metaServerShadings.add(readShardingConf(shardingConf)); // 解析 index  和 server，解析为 ShardingClient，持有了三个 Server 信息
         }
 
         storeServerShardingMap = new HashMap<>();
         Toml storeServerConf = toml.getTable("store_server");
         shardingConfList = storeServerConf.getTables("sharding");
         for (Toml shardingConf : shardingConfList) {
-            ShardingClient shardingClient = readShardingConf(shardingConf);
+            ShardingClient shardingClient = readShardingConf(shardingConf); // 解析 index  和 server，解析为 ShardingClient，持有了三个 Server 信息
             storeServerShardingMap.put(shardingClient.getIndex(), shardingClient);
         }
     }
 
+    // 解析 index  和 server，解析为 ShardingClient，持有了三个 Server 信息
     private ShardingClient readShardingConf(Toml shardingConf) {
         int index = shardingConf.getLong("index").intValue();
         List<Toml> serverConfList = shardingConf.getTables("server");

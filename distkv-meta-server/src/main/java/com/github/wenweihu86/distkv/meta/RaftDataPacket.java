@@ -32,6 +32,7 @@ public class RaftDataPacket {
     private CommonMessage.RaftMetaData meta;
     private Message message;
 
+    // 构建 RaftDataPacket，持有 CommonMessage.RaftMetaData 和 Message（ProtoBuf 消息）
     public static RaftDataPacket buildPacket(CommonMessage.RequestType requestType, Message message) {
         RaftDataPacket packet = new RaftDataPacket();
         CommonMessage.RaftMetaData.Builder metaBuilder = CommonMessage.RaftMetaData.newBuilder();
@@ -41,6 +42,7 @@ public class RaftDataPacket {
         return packet;
     }
 
+    // metaLen messageLen meta message
     public static byte[] encode(RaftDataPacket packet) {
         int metaLen = packet.getMeta().getSerializedSize();
         int messageLen = packet.getMessage().getSerializedSize();
@@ -60,6 +62,7 @@ public class RaftDataPacket {
         return outBytes;
     }
 
+    // 解码消息，解析为 RaftDataPacket
     public static RaftDataPacket decode(byte[] bytes) {
         ByteBuf byteBuf = Unpooled.wrappedBuffer(bytes);
         RaftDataPacket packet = new RaftDataPacket();

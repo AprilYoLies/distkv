@@ -1,152 +1,262 @@
-2020-01-11 13:24:35,551 INFO [main]	read conf server, ip=127.0.0.1, port=8101
-2020-01-11 13:24:35,553 INFO [main]	read conf server, ip=127.0.0.1, port=8102
-2020-01-11 13:24:35,553 INFO [main]	read conf server, ip=127.0.0.1, port=8103
-2020-01-11 13:24:35,553 INFO [main]	read conf server, ip=127.0.0.1, port=8201
-2020-01-11 13:24:35,553 INFO [main]	read conf server, ip=127.0.0.1, port=8202
-2020-01-11 13:24:35,553 INFO [main]	read conf server, ip=127.0.0.1, port=8203
-2020-01-11 13:24:35,554 INFO [main]	reading rpc client options conf, connect_timeout_ms=200, write_timeout_ms=200, read_timeout_ms=500
-2020-01-11 13:24:35,789 INFO [main]	reading rpc client options conf, connect_timeout_ms=200, write_timeout_ms=200, read_timeout_ms=500
-2020-01-11 13:24:35,815 INFO [client-io-thread-21]	connect to 127.0.0.1:8103 success, channel=[id: 0x9caf346e, L:/127.0.0.1:54513 - R:/127.0.0.1:8103]
-2020-01-11 13:24:35,815 INFO [client-io-thread-23]	connect to 127.0.0.1:8103 success, channel=[id: 0xfd58a78b, L:/127.0.0.1:54511 - R:/127.0.0.1:8103]
-2020-01-11 13:24:35,815 INFO [client-io-thread-22]	connect to 127.0.0.1:8103 success, channel=[id: 0xdd202ecb, L:/127.0.0.1:54510 - R:/127.0.0.1:8103]
-2020-01-11 13:24:35,815 INFO [client-io-thread-10]	connect to 127.0.0.1:8102 success, channel=[id: 0xef45611f, L:/127.0.0.1:54515 - R:/127.0.0.1:8102]
-2020-01-11 13:24:35,815 INFO [client-io-thread-16]	connect to 127.0.0.1:8102 success, channel=[id: 0xd227ea88, L:/127.0.0.1:54512 - R:/127.0.0.1:8102]
-2020-01-11 13:24:35,815 INFO [client-io-thread-17]	connect to 127.0.0.1:8103 success, channel=[id: 0xb9bf5de9, L:/127.0.0.1:54517 - R:/127.0.0.1:8103]
-2020-01-11 13:24:35,815 INFO [client-io-thread-18]	connect to 127.0.0.1:8103 success, channel=[id: 0xd1a36df1, L:/127.0.0.1:54518 - R:/127.0.0.1:8103]
-2020-01-11 13:24:35,815 INFO [client-io-thread-13]	connect to 127.0.0.1:8102 success, channel=[id: 0x14a2e675, L:/127.0.0.1:54519 - R:/127.0.0.1:8102]
-2020-01-11 13:24:35,815 INFO [client-io-thread-7]	connect to 127.0.0.1:8101 success, channel=[id: 0x20462001, L:/127.0.0.1:54516 - R:/127.0.0.1:8101]
-2020-01-11 13:24:35,815 INFO [client-io-thread-9]	connect to 127.0.0.1:8102 success, channel=[id: 0xdedb8b8c, L:/127.0.0.1:54514 - R:/127.0.0.1:8102]
-2020-01-11 13:24:35,817 INFO [client-io-thread-15]	connect to 127.0.0.1:8102 success, channel=[id: 0xd23cab2c, L:/127.0.0.1:54509 - R:/127.0.0.1:8102]
-2020-01-11 13:24:35,818 INFO [client-io-thread-1]	connect to 127.0.0.1:8101 success, channel=[id: 0x3a0c71e2, L:/127.0.0.1:54508 - R:/127.0.0.1:8101]
-2020-01-11 13:24:35,819 INFO [client-io-thread-5]	connect to 127.0.0.1:8101 success, channel=[id: 0xf1f4aa89, L:/127.0.0.1:54507 - R:/127.0.0.1:8101]
-2020-01-11 13:24:35,819 INFO [client-io-thread-24]	connect to 127.0.0.1:8103 success, channel=[id: 0x9c7da644, L:/127.0.0.1:54506 - R:/127.0.0.1:8103]
-2020-01-11 13:24:35,820 INFO [main]	use normal mode
-2020-01-11 13:24:35,820 INFO [client-io-thread-8]	connect to 127.0.0.1:8101 success, channel=[id: 0xc18ca3e7, L:/127.0.0.1:54505 - R:/127.0.0.1:8101]
-2020-01-11 13:24:35,821 INFO [client-io-thread-6]	connect to 127.0.0.1:8101 success, channel=[id: 0xa32ed1a5, L:/127.0.0.1:54503 - R:/127.0.0.1:8101]
-2020-01-11 13:24:35,821 INFO [client-io-thread-19]	connect to 127.0.0.1:8103 success, channel=[id: 0xa077c27a, L:/127.0.0.1:54504 - R:/127.0.0.1:8103]
-2020-01-11 13:24:35,822 INFO [client-io-thread-20]	connect to 127.0.0.1:8103 success, channel=[id: 0xc33f5a0a, L:/127.0.0.1:54502 - R:/127.0.0.1:8103]
-2020-01-11 13:24:35,823 INFO [client-io-thread-2]	connect to 127.0.0.1:8101 success, channel=[id: 0x1d4f3521, L:/127.0.0.1:54501 - R:/127.0.0.1:8101]
-2020-01-11 13:24:35,824 INFO [client-io-thread-11]	connect to 127.0.0.1:8102 success, channel=[id: 0xe2807309, L:/127.0.0.1:54498 - R:/127.0.0.1:8102]
-2020-01-11 13:24:35,824 INFO [client-io-thread-4]	connect to 127.0.0.1:8101 success, channel=[id: 0xa637ece6, L:/127.0.0.1:54500 - R:/127.0.0.1:8101]
-2020-01-11 13:24:35,825 INFO [client-io-thread-3]	connect to 127.0.0.1:8101 success, channel=[id: 0xe87cf9f2, L:/127.0.0.1:54499 - R:/127.0.0.1:8101]
-2020-01-11 13:24:35,826 INFO [client-io-thread-14]	connect to 127.0.0.1:8102 success, channel=[id: 0x42339f31, L:/127.0.0.1:54521 - R:/127.0.0.1:8102]
-2020-01-11 13:24:35,827 WARN [client-io-thread-24]	future callback, connect to 127.0.0.1:8203 failed due to Connection refused: /127.0.0.1:8203
-2020-01-11 13:24:35,828 WARN [client-io-thread-1]	future callback, connect to 127.0.0.1:8201 failed due to Connection refused: /127.0.0.1:8201
-2020-01-11 13:24:35,828 WARN [client-io-thread-22]	future callback, connect to 127.0.0.1:8203 failed due to Connection refused: /127.0.0.1:8203
-2020-01-11 13:24:35,829 WARN [client-io-thread-2]	future callback, connect to 127.0.0.1:8201 failed due to Connection refused: /127.0.0.1:8201
-2020-01-11 13:24:35,830 WARN [client-io-thread-3]	future callback, connect to 127.0.0.1:8201 failed due to Connection refused: /127.0.0.1:8201
-2020-01-11 13:24:35,831 WARN [client-io-thread-4]	future callback, connect to 127.0.0.1:8201 failed due to Connection refused: /127.0.0.1:8201
-2020-01-11 13:24:35,831 WARN [client-io-thread-5]	future callback, connect to 127.0.0.1:8201 failed due to Connection refused: /127.0.0.1:8201
-2020-01-11 13:24:35,832 WARN [client-io-thread-6]	future callback, connect to 127.0.0.1:8201 failed due to Connection refused: /127.0.0.1:8201
-2020-01-11 13:24:35,833 INFO [main]	register service, com.github.wenweihu86.distkv.api.ProxyAPI.get
-2020-01-11 13:24:35,833 INFO [main]	register service, serviceName=com.github.wenweihu86.distkv.api.ProxyAPI, methodName=get
-2020-01-11 13:24:35,833 WARN [client-io-thread-7]	future callback, connect to 127.0.0.1:8201 failed due to Connection refused: /127.0.0.1:8201
-2020-01-11 13:24:35,834 INFO [main]	register service, com.github.wenweihu86.distkv.api.ProxyAPI.delete
-2020-01-11 13:24:35,834 INFO [main]	register service, serviceName=com.github.wenweihu86.distkv.api.ProxyAPI, methodName=delete
-2020-01-11 13:24:35,834 WARN [client-io-thread-8]	future callback, connect to 127.0.0.1:8201 failed due to Connection refused: /127.0.0.1:8201
-2020-01-11 13:24:35,835 INFO [main]	register service, com.github.wenweihu86.distkv.api.ProxyAPI.set
-2020-01-11 13:24:35,835 INFO [main]	register service, serviceName=com.github.wenweihu86.distkv.api.ProxyAPI, methodName=set
-2020-01-11 13:24:35,835 WARN [client-io-thread-9]	future callback, connect to 127.0.0.1:8202 failed due to Connection refused: /127.0.0.1:8202
-2020-01-11 13:24:35,836 WARN [client-io-thread-10]	future callback, connect to 127.0.0.1:8202 failed due to Connection refused: /127.0.0.1:8202
-2020-01-11 13:24:35,837 WARN [client-io-thread-11]	future callback, connect to 127.0.0.1:8202 failed due to Connection refused: /127.0.0.1:8202
-2020-01-11 13:24:35,838 WARN [client-io-thread-12]	future callback, connect to 127.0.0.1:8202 failed due to Connection refused: /127.0.0.1:8202
-2020-01-11 13:24:35,839 WARN [client-io-thread-13]	future callback, connect to 127.0.0.1:8202 failed due to Connection refused: /127.0.0.1:8202
-2020-01-11 13:24:35,839 WARN [client-io-thread-14]	future callback, connect to 127.0.0.1:8202 failed due to Connection refused: /127.0.0.1:8202
-2020-01-11 13:24:35,840 WARN [client-io-thread-15]	future callback, connect to 127.0.0.1:8202 failed due to Connection refused: /127.0.0.1:8202
-2020-01-11 13:24:35,841 WARN [client-io-thread-16]	future callback, connect to 127.0.0.1:8202 failed due to Connection refused: /127.0.0.1:8202
-2020-01-11 13:24:35,842 WARN [client-io-thread-17]	future callback, connect to 127.0.0.1:8203 failed due to Connection refused: /127.0.0.1:8203
-2020-01-11 13:24:35,842 WARN [client-io-thread-18]	future callback, connect to 127.0.0.1:8203 failed due to Connection refused: /127.0.0.1:8203
-2020-01-11 13:24:35,843 WARN [client-io-thread-19]	future callback, connect to 127.0.0.1:8203 failed due to Connection refused: /127.0.0.1:8203
-2020-01-11 13:24:35,844 WARN [client-io-thread-20]	future callback, connect to 127.0.0.1:8203 failed due to Connection refused: /127.0.0.1:8203
-2020-01-11 13:24:35,845 WARN [client-io-thread-21]	future callback, connect to 127.0.0.1:8203 failed due to Connection refused: /127.0.0.1:8203
-2020-01-11 13:24:35,845 WARN [client-io-thread-23]	future callback, connect to 127.0.0.1:8203 failed due to Connection refused: /127.0.0.1:8203
-2020-01-11 13:24:35,846 INFO [client-io-thread-12]	connect to 127.0.0.1:8102 success, channel=[id: 0x807f916c, L:/127.0.0.1:54520 - R:/127.0.0.1:8102]
-2020-01-11 13:24:35,863 INFO [main]	server started on port=8001 success
-2020-01-11 13:33:16,976 INFO [main]	read conf server, ip=127.0.0.1, port=8101
-2020-01-11 13:33:16,977 INFO [main]	read conf server, ip=127.0.0.1, port=8102
-2020-01-11 13:33:16,977 INFO [main]	read conf server, ip=127.0.0.1, port=8103
-2020-01-11 13:33:16,977 INFO [main]	read conf server, ip=127.0.0.1, port=8201
-2020-01-11 13:33:16,977 INFO [main]	read conf server, ip=127.0.0.1, port=8202
-2020-01-11 13:33:16,977 INFO [main]	read conf server, ip=127.0.0.1, port=8203
-2020-01-11 13:33:16,978 INFO [main]	reading rpc client options conf, connect_timeout_ms=200, write_timeout_ms=200, read_timeout_ms=500
-2020-01-11 13:33:17,217 INFO [main]	reading rpc client options conf, connect_timeout_ms=200, write_timeout_ms=200, read_timeout_ms=500
-2020-01-11 13:33:17,244 INFO [client-io-thread-14]	connect to 127.0.0.1:8202 success, channel=[id: 0x163072f3, L:/127.0.0.1:54831 - R:/127.0.0.1:8202]
-2020-01-11 13:33:17,244 INFO [client-io-thread-12]	connect to 127.0.0.1:8202 success, channel=[id: 0x74d69dd5, L:/127.0.0.1:54829 - R:/127.0.0.1:8202]
-2020-01-11 13:33:17,244 INFO [client-io-thread-15]	connect to 127.0.0.1:8202 success, channel=[id: 0xd61b03e6, L:/127.0.0.1:54832 - R:/127.0.0.1:8202]
-2020-01-11 13:33:17,244 INFO [client-io-thread-16]	connect to 127.0.0.1:8202 success, channel=[id: 0x21bc5286, L:/127.0.0.1:54833 - R:/127.0.0.1:8202]
-2020-01-11 13:33:17,244 INFO [client-io-thread-11]	connect to 127.0.0.1:8202 success, channel=[id: 0x141ea48d, L:/127.0.0.1:54828 - R:/127.0.0.1:8202]
-2020-01-11 13:33:17,244 INFO [client-io-thread-10]	connect to 127.0.0.1:8202 success, channel=[id: 0xa4935a2d, L:/127.0.0.1:54827 - R:/127.0.0.1:8202]
-2020-01-11 13:33:17,244 INFO [client-io-thread-13]	connect to 127.0.0.1:8202 success, channel=[id: 0x143d01e0, L:/127.0.0.1:54830 - R:/127.0.0.1:8202]
-2020-01-11 13:33:17,244 INFO [client-io-thread-20]	connect to 127.0.0.1:8103 success, channel=[id: 0x1f06dcd5, L:/127.0.0.1:54810 - R:/127.0.0.1:8103]
-2020-01-11 13:33:17,245 INFO [client-io-thread-22]	connect to 127.0.0.1:8103 success, channel=[id: 0x76227c36, L:/127.0.0.1:54815 - R:/127.0.0.1:8103]
-2020-01-11 13:33:17,245 INFO [client-io-thread-24]	connect to 127.0.0.1:8103 success, channel=[id: 0xeca4b623, L:/127.0.0.1:54816 - R:/127.0.0.1:8103]
-2020-01-11 13:33:17,245 INFO [client-io-thread-24]	connect to 127.0.0.1:8203 success, channel=[id: 0xe5cad923, L:/127.0.0.1:54841 - R:/127.0.0.1:8203]
-2020-01-11 13:33:17,245 INFO [client-io-thread-6]	connect to 127.0.0.1:8101 success, channel=[id: 0x6dc84e38, L:/127.0.0.1:54814 - R:/127.0.0.1:8101]
-2020-01-11 13:33:17,245 INFO [client-io-thread-23]	connect to 127.0.0.1:8203 success, channel=[id: 0x5d6da74e, L:/127.0.0.1:54840 - R:/127.0.0.1:8203]
-2020-01-11 13:33:17,246 INFO [client-io-thread-22]	connect to 127.0.0.1:8203 success, channel=[id: 0x31e8d339, L:/127.0.0.1:54839 - R:/127.0.0.1:8203]
-2020-01-11 13:33:17,246 INFO [client-io-thread-7]	connect to 127.0.0.1:8201 success, channel=[id: 0x1cc72182, L:/127.0.0.1:54824 - R:/127.0.0.1:8201]
-2020-01-11 13:33:17,246 INFO [client-io-thread-21]	connect to 127.0.0.1:8203 success, channel=[id: 0x7f1ded88, L:/127.0.0.1:54838 - R:/127.0.0.1:8203]
-2020-01-11 13:33:17,246 INFO [client-io-thread-20]	connect to 127.0.0.1:8203 success, channel=[id: 0x85998285, L:/127.0.0.1:54837 - R:/127.0.0.1:8203]
-2020-01-11 13:33:17,247 INFO [client-io-thread-4]	connect to 127.0.0.1:8101 success, channel=[id: 0x9f715aec, L:/127.0.0.1:54813 - R:/127.0.0.1:8101]
-2020-01-11 13:33:17,246 INFO [client-io-thread-21]	connect to 127.0.0.1:8103 success, channel=[id: 0xf0d01c9c, L:/127.0.0.1:54812 - R:/127.0.0.1:8103]
-2020-01-11 13:33:17,247 INFO [client-io-thread-8]	connect to 127.0.0.1:8201 success, channel=[id: 0x2cde0514, L:/127.0.0.1:54825 - R:/127.0.0.1:8201]
-2020-01-11 13:33:17,247 INFO [client-io-thread-18]	connect to 127.0.0.1:8203 success, channel=[id: 0x66a8922f, L:/127.0.0.1:54835 - R:/127.0.0.1:8203]
-2020-01-11 13:33:17,247 INFO [client-io-thread-19]	connect to 127.0.0.1:8203 success, channel=[id: 0x9a7f3871, L:/127.0.0.1:54836 - R:/127.0.0.1:8203]
-2020-01-11 13:33:17,247 INFO [client-io-thread-15]	connect to 127.0.0.1:8102 success, channel=[id: 0x3f18dae7, L:/127.0.0.1:54811 - R:/127.0.0.1:8102]
-2020-01-11 13:33:17,248 INFO [client-io-thread-17]	connect to 127.0.0.1:8203 success, channel=[id: 0x638ce07f, L:/127.0.0.1:54834 - R:/127.0.0.1:8203]
-2020-01-11 13:33:17,248 INFO [client-io-thread-7]	connect to 127.0.0.1:8101 success, channel=[id: 0x190aaf6c, L:/127.0.0.1:54809 - R:/127.0.0.1:8101]
-2020-01-11 13:33:17,249 INFO [client-io-thread-9]	connect to 127.0.0.1:8202 success, channel=[id: 0x6906ddf9, L:/127.0.0.1:54826 - R:/127.0.0.1:8202]
-2020-01-11 13:33:17,250 INFO [client-io-thread-4]	connect to 127.0.0.1:8201 success, channel=[id: 0xbde4e4cb, L:/127.0.0.1:54821 - R:/127.0.0.1:8201]
-2020-01-11 13:33:17,251 INFO [client-io-thread-5]	connect to 127.0.0.1:8201 success, channel=[id: 0x64732f5f, L:/127.0.0.1:54822 - R:/127.0.0.1:8201]
-2020-01-11 13:33:17,252 INFO [client-io-thread-3]	connect to 127.0.0.1:8201 success, channel=[id: 0x60cdecee, L:/127.0.0.1:54820 - R:/127.0.0.1:8201]
-2020-01-11 13:33:17,253 INFO [client-io-thread-6]	connect to 127.0.0.1:8201 success, channel=[id: 0xb1246483, L:/127.0.0.1:54823 - R:/127.0.0.1:8201]
-2020-01-11 13:33:17,254 INFO [client-io-thread-2]	connect to 127.0.0.1:8201 success, channel=[id: 0xcda7fa47, L:/127.0.0.1:54819 - R:/127.0.0.1:8201]
-2020-01-11 13:33:17,256 INFO [client-io-thread-12]	connect to 127.0.0.1:8102 success, channel=[id: 0x4e81aaef, L:/127.0.0.1:54808 - R:/127.0.0.1:8102]
-2020-01-11 13:33:17,258 INFO [client-io-thread-1]	connect to 127.0.0.1:8201 success, channel=[id: 0xa52781a9, L:/127.0.0.1:54818 - R:/127.0.0.1:8201]
-2020-01-11 13:33:17,259 INFO [client-io-thread-10]	connect to 127.0.0.1:8102 success, channel=[id: 0x750cfe58, L:/127.0.0.1:54807 - R:/127.0.0.1:8102]
-2020-01-11 13:33:17,260 INFO [client-io-thread-14]	connect to 127.0.0.1:8102 success, channel=[id: 0xa4f8bcf6, L:/127.0.0.1:54806 - R:/127.0.0.1:8102]
-2020-01-11 13:33:17,261 INFO [client-io-thread-8]	connect to 127.0.0.1:8101 success, channel=[id: 0x1033f58e, L:/127.0.0.1:54805 - R:/127.0.0.1:8101]
-2020-01-11 13:33:17,262 INFO [main]	use normal mode
-2020-01-11 13:33:17,262 INFO [client-io-thread-18]	connect to 127.0.0.1:8103 success, channel=[id: 0xe485bc6e, L:/127.0.0.1:54804 - R:/127.0.0.1:8103]
-2020-01-11 13:33:17,263 INFO [client-io-thread-5]	connect to 127.0.0.1:8101 success, channel=[id: 0x886085a8, L:/127.0.0.1:54803 - R:/127.0.0.1:8101]
-2020-01-11 13:33:17,263 INFO [client-io-thread-16]	connect to 127.0.0.1:8102 success, channel=[id: 0x07a3c919, L:/127.0.0.1:54802 - R:/127.0.0.1:8102]
-2020-01-11 13:33:17,264 INFO [client-io-thread-3]	connect to 127.0.0.1:8101 success, channel=[id: 0x8da7f4af, L:/127.0.0.1:54801 - R:/127.0.0.1:8101]
-2020-01-11 13:33:17,265 INFO [client-io-thread-1]	connect to 127.0.0.1:8101 success, channel=[id: 0xeb9189f0, L:/127.0.0.1:54800 - R:/127.0.0.1:8101]
-2020-01-11 13:33:17,266 INFO [client-io-thread-17]	connect to 127.0.0.1:8103 success, channel=[id: 0xa7010655, L:/127.0.0.1:54799 - R:/127.0.0.1:8103]
-2020-01-11 13:33:17,267 INFO [client-io-thread-2]	connect to 127.0.0.1:8101 success, channel=[id: 0x33798e7e, L:/127.0.0.1:54798 - R:/127.0.0.1:8101]
-2020-01-11 13:33:17,268 INFO [client-io-thread-13]	connect to 127.0.0.1:8102 success, channel=[id: 0x17572282, L:/127.0.0.1:54797 - R:/127.0.0.1:8102]
-2020-01-11 13:33:17,268 INFO [client-io-thread-19]	connect to 127.0.0.1:8103 success, channel=[id: 0x9b039fda, L:/127.0.0.1:54795 - R:/127.0.0.1:8103]
-2020-01-11 13:33:17,270 INFO [client-io-thread-11]	connect to 127.0.0.1:8102 success, channel=[id: 0xd6d3112f, L:/127.0.0.1:54796 - R:/127.0.0.1:8102]
-2020-01-11 13:33:17,270 INFO [client-io-thread-9]	connect to 127.0.0.1:8102 success, channel=[id: 0xdfc9314c, L:/127.0.0.1:54794 - R:/127.0.0.1:8102]
-2020-01-11 13:33:17,271 INFO [client-io-thread-23]	connect to 127.0.0.1:8103 success, channel=[id: 0x9b275afd, L:/127.0.0.1:54817 - R:/127.0.0.1:8103]
-2020-01-11 13:33:17,277 INFO [main]	register service, com.github.wenweihu86.distkv.api.ProxyAPI.get
-2020-01-11 13:33:17,277 INFO [main]	register service, serviceName=com.github.wenweihu86.distkv.api.ProxyAPI, methodName=get
-2020-01-11 13:33:17,278 INFO [main]	register service, com.github.wenweihu86.distkv.api.ProxyAPI.delete
-2020-01-11 13:33:17,278 INFO [main]	register service, serviceName=com.github.wenweihu86.distkv.api.ProxyAPI, methodName=delete
-2020-01-11 13:33:17,279 INFO [main]	register service, com.github.wenweihu86.distkv.api.ProxyAPI.set
-2020-01-11 13:33:17,279 INFO [main]	register service, serviceName=com.github.wenweihu86.distkv.api.ProxyAPI, methodName=set
-2020-01-11 13:33:17,287 INFO [main]	server started on port=8001 success
-2020-01-11 13:38:04,477 INFO [worker-thread-1]	proxy server set request, key=hello, resCode=RES_CODE_SUCCESS, resMsg=
-2020-01-11 13:40:51,174 INFO [worker-thread-2]	proxy server set request, key=hello, resCode=RES_CODE_SUCCESS, resMsg=
-2020-01-11 13:41:48,328 INFO [worker-thread-3]	proxy server set request, key=hello, resCode=RES_CODE_SUCCESS, resMsg=
-2020-01-11 13:43:32,108 INFO [worker-thread-4]	proxy server set request, key=hello, resCode=RES_CODE_SUCCESS, resMsg=
-2020-01-11 13:44:08,295 INFO [worker-thread-5]	get request, key=hello, resCode=RES_CODE_SUCCESS, resMsg=
-2020-01-11 13:44:17,619 INFO [worker-thread-6]	get request, key=hello, resCode=RES_CODE_SUCCESS, resMsg=
-2020-01-11 13:44:22,225 INFO [worker-thread-7]	get request, key=hello, resCode=RES_CODE_SUCCESS, resMsg=
-2020-01-11 13:44:29,164 WARN [worker-thread-8]	meta server get request failed, keySign=5951471860845224750
-2020-01-11 13:44:33,394 WARN [worker-thread-9]	meta server get request failed, keySign=8910065487432976044
-2020-01-11 13:45:23,100 INFO [worker-thread-10]	proxy server set request, key=hello, resCode=RES_CODE_SUCCESS, resMsg=
-2020-01-11 13:45:26,502 INFO [worker-thread-11]	proxy server set request, key=hello, resCode=RES_CODE_SUCCESS, resMsg=
-2020-01-11 13:45:29,014 WARN [worker-thread-12]	meta server get request failed, keySign=8910065487432976044
-2020-01-11 13:45:29,986 WARN [worker-thread-13]	meta server get request failed, keySign=8910065487432976044
-2020-01-11 13:45:31,080 WARN [worker-thread-14]	meta server get request failed, keySign=8910065487432976044
-2020-01-11 13:45:32,254 WARN [worker-thread-15]	meta server get request failed, keySign=8910065487432976044
-2020-01-11 13:45:33,085 WARN [worker-thread-16]	meta server get request failed, keySign=8910065487432976044
-2020-01-11 13:45:34,065 WARN [worker-thread-17]	meta server get request failed, keySign=8910065487432976044
-2020-01-11 13:45:35,100 WARN [worker-thread-18]	meta server get request failed, keySign=8910065487432976044
-2020-01-11 13:45:36,269 WARN [worker-thread-19]	meta server get request failed, keySign=8910065487432976044
-2020-01-11 13:45:38,371 INFO [worker-thread-20]	proxy server set request, key=hello, resCode=RES_CODE_SUCCESS, resMsg=
-2020-01-11 13:45:39,520 INFO [worker-thread-21]	proxy server set request, key=hello, resCode=RES_CODE_SUCCESS, resMsg=
-2020-01-11 13:45:41,183 INFO [worker-thread-22]	proxy server set request, key=hello, resCode=RES_CODE_SUCCESS, resMsg=
-2020-01-11 13:45:42,395 INFO [worker-thread-23]	proxy server set request, key=hello, resCode=RES_CODE_SUCCESS, resMsg=
-2020-01-11 13:45:43,737 INFO [worker-thread-24]	proxy server set request, key=hello, resCode=RES_CODE_SUCCESS, resMsg=
+2020-01-12 11:52:17,789 INFO [main]	read conf server, ip=127.0.0.1, port=8101
+2020-01-12 11:52:17,799 INFO [main]	read conf server, ip=127.0.0.1, port=8102
+2020-01-12 11:52:17,799 INFO [main]	read conf server, ip=127.0.0.1, port=8103
+2020-01-12 11:52:17,800 INFO [main]	read conf server, ip=127.0.0.1, port=8201
+2020-01-12 11:52:17,800 INFO [main]	read conf server, ip=127.0.0.1, port=8202
+2020-01-12 11:52:17,800 INFO [main]	read conf server, ip=127.0.0.1, port=8203
+2020-01-12 11:52:17,801 INFO [main]	reading rpc client options conf, connect_timeout_ms=200, write_timeout_ms=200, read_timeout_ms=500
+2020-01-12 11:52:18,118 INFO [main]	reading rpc client options conf, connect_timeout_ms=200, write_timeout_ms=200, read_timeout_ms=500
+2020-01-12 11:52:18,119 INFO [client-io-thread-15]	connect to 127.0.0.1:8102 success, channel=[id: 0x0580594f, L:/127.0.0.1:49908 - R:/127.0.0.1:8102]
+2020-01-12 11:52:18,119 INFO [client-io-thread-23]	connect to 127.0.0.1:8103 success, channel=[id: 0x5e5b048d, L:/127.0.0.1:49910 - R:/127.0.0.1:8103]
+2020-01-12 11:52:18,119 INFO [client-io-thread-10]	connect to 127.0.0.1:8102 success, channel=[id: 0xa5809ad0, L:/127.0.0.1:49915 - R:/127.0.0.1:8102]
+2020-01-12 11:52:18,119 INFO [client-io-thread-7]	connect to 127.0.0.1:8101 success, channel=[id: 0x963d802a, L:/127.0.0.1:49912 - R:/127.0.0.1:8101]
+2020-01-12 11:52:18,119 INFO [client-io-thread-19]	connect to 127.0.0.1:8103 success, channel=[id: 0x90f5cf67, L:/127.0.0.1:49914 - R:/127.0.0.1:8103]
+2020-01-12 11:52:18,119 INFO [client-io-thread-22]	connect to 127.0.0.1:8103 success, channel=[id: 0x524bbd32, L:/127.0.0.1:49916 - R:/127.0.0.1:8103]
+2020-01-12 11:52:18,119 INFO [client-io-thread-20]	connect to 127.0.0.1:8103 success, channel=[id: 0x8c26e948, L:/127.0.0.1:49918 - R:/127.0.0.1:8103]
+2020-01-12 11:52:18,119 INFO [client-io-thread-18]	connect to 127.0.0.1:8103 success, channel=[id: 0x3e2c8c44, L:/127.0.0.1:49917 - R:/127.0.0.1:8103]
+2020-01-12 11:52:18,119 INFO [client-io-thread-8]	connect to 127.0.0.1:8101 success, channel=[id: 0x4ce67c5b, L:/127.0.0.1:49911 - R:/127.0.0.1:8101]
+2020-01-12 11:52:18,119 INFO [client-io-thread-13]	connect to 127.0.0.1:8102 success, channel=[id: 0xc4227b0a, L:/127.0.0.1:49919 - R:/127.0.0.1:8102]
+2020-01-12 11:52:18,119 INFO [client-io-thread-1]	connect to 127.0.0.1:8101 success, channel=[id: 0xfeca5d24, L:/127.0.0.1:49907 - R:/127.0.0.1:8101]
+2020-01-12 11:52:18,119 INFO [client-io-thread-6]	connect to 127.0.0.1:8101 success, channel=[id: 0x19f673af, L:/127.0.0.1:49902 - R:/127.0.0.1:8101]
+2020-01-12 11:52:18,119 INFO [client-io-thread-9]	connect to 127.0.0.1:8102 success, channel=[id: 0x51d9206c, L:/127.0.0.1:49909 - R:/127.0.0.1:8102]
+2020-01-12 11:52:18,119 INFO [client-io-thread-16]	connect to 127.0.0.1:8102 success, channel=[id: 0x6dc7f81f, L:/127.0.0.1:49905 - R:/127.0.0.1:8102]
+2020-01-12 11:52:18,119 INFO [client-io-thread-4]	connect to 127.0.0.1:8101 success, channel=[id: 0x5cc990eb, L:/127.0.0.1:49906 - R:/127.0.0.1:8101]
+2020-01-12 11:52:18,119 INFO [client-io-thread-3]	connect to 127.0.0.1:8101 success, channel=[id: 0xe05eaa09, L:/127.0.0.1:49913 - R:/127.0.0.1:8101]
+2020-01-12 11:52:18,119 INFO [client-io-thread-14]	connect to 127.0.0.1:8102 success, channel=[id: 0xd82e22f6, L:/127.0.0.1:49920 - R:/127.0.0.1:8102]
+2020-01-12 11:52:18,120 INFO [client-io-thread-5]	connect to 127.0.0.1:8101 success, channel=[id: 0x1446fe9b, L:/127.0.0.1:49922 - R:/127.0.0.1:8101]
+2020-01-12 11:52:18,120 INFO [client-io-thread-21]	connect to 127.0.0.1:8103 success, channel=[id: 0xd9434fbf, L:/127.0.0.1:49904 - R:/127.0.0.1:8103]
+2020-01-12 11:52:18,121 INFO [client-io-thread-11]	connect to 127.0.0.1:8102 success, channel=[id: 0xe9033d1b, L:/127.0.0.1:49903 - R:/127.0.0.1:8102]
+2020-01-12 11:52:18,122 INFO [client-io-thread-2]	connect to 127.0.0.1:8101 success, channel=[id: 0x45e2623e, L:/127.0.0.1:49901 - R:/127.0.0.1:8101]
+2020-01-12 11:52:18,121 INFO [client-io-thread-1]	connect to 127.0.0.1:8201 success, channel=[id: 0x129ec10f, L:/127.0.0.1:49924 - R:/127.0.0.1:8201]
+2020-01-12 11:52:18,122 INFO [client-io-thread-2]	connect to 127.0.0.1:8201 success, channel=[id: 0x11bcd7e4, L:/127.0.0.1:49925 - R:/127.0.0.1:8201]
+2020-01-12 11:52:18,122 INFO [client-io-thread-3]	connect to 127.0.0.1:8201 success, channel=[id: 0x9d1fb1fe, L:/127.0.0.1:49926 - R:/127.0.0.1:8201]
+2020-01-12 11:52:18,122 INFO [client-io-thread-17]	connect to 127.0.0.1:8103 success, channel=[id: 0xef5a029a, L:/127.0.0.1:49900 - R:/127.0.0.1:8103]
+2020-01-12 11:52:18,123 INFO [client-io-thread-4]	connect to 127.0.0.1:8201 success, channel=[id: 0x93b9f099, L:/127.0.0.1:49927 - R:/127.0.0.1:8201]
+2020-01-12 11:52:18,123 INFO [client-io-thread-5]	connect to 127.0.0.1:8201 success, channel=[id: 0x76e92cd2, L:/127.0.0.1:49928 - R:/127.0.0.1:8201]
+2020-01-12 11:52:18,123 INFO [client-io-thread-12]	connect to 127.0.0.1:8102 success, channel=[id: 0x9a4621c9, L:/127.0.0.1:49923 - R:/127.0.0.1:8102]
+2020-01-12 11:52:18,124 INFO [client-io-thread-6]	connect to 127.0.0.1:8201 success, channel=[id: 0xd86d3a5d, L:/127.0.0.1:49929 - R:/127.0.0.1:8201]
+2020-01-12 11:52:18,124 INFO [client-io-thread-24]	connect to 127.0.0.1:8103 success, channel=[id: 0x1d83501a, L:/127.0.0.1:49921 - R:/127.0.0.1:8103]
+2020-01-12 11:52:18,125 INFO [client-io-thread-7]	connect to 127.0.0.1:8201 success, channel=[id: 0x81b8f9b4, L:/127.0.0.1:49930 - R:/127.0.0.1:8201]
+2020-01-12 11:52:18,125 INFO [client-io-thread-8]	connect to 127.0.0.1:8201 success, channel=[id: 0x69d99750, L:/127.0.0.1:49931 - R:/127.0.0.1:8201]
+2020-01-12 11:52:18,126 INFO [client-io-thread-9]	connect to 127.0.0.1:8202 success, channel=[id: 0x791a0da0, L:/127.0.0.1:49932 - R:/127.0.0.1:8202]
+2020-01-12 11:52:18,126 INFO [client-io-thread-10]	connect to 127.0.0.1:8202 success, channel=[id: 0x52f1aee4, L:/127.0.0.1:49933 - R:/127.0.0.1:8202]
+2020-01-12 11:52:18,127 INFO [client-io-thread-11]	connect to 127.0.0.1:8202 success, channel=[id: 0x91281435, L:/127.0.0.1:49934 - R:/127.0.0.1:8202]
+2020-01-12 11:52:18,127 INFO [client-io-thread-12]	connect to 127.0.0.1:8202 success, channel=[id: 0x51ecec80, L:/127.0.0.1:49935 - R:/127.0.0.1:8202]
+2020-01-12 11:52:18,128 INFO [client-io-thread-13]	connect to 127.0.0.1:8202 success, channel=[id: 0x9b2a83b0, L:/127.0.0.1:49936 - R:/127.0.0.1:8202]
+2020-01-12 11:52:18,129 INFO [client-io-thread-14]	connect to 127.0.0.1:8202 success, channel=[id: 0x98f7ab8a, L:/127.0.0.1:49937 - R:/127.0.0.1:8202]
+2020-01-12 11:52:18,129 INFO [client-io-thread-15]	connect to 127.0.0.1:8202 success, channel=[id: 0x8308d8b5, L:/127.0.0.1:49938 - R:/127.0.0.1:8202]
+2020-01-12 11:52:18,130 INFO [client-io-thread-16]	connect to 127.0.0.1:8202 success, channel=[id: 0xa5145856, L:/127.0.0.1:49939 - R:/127.0.0.1:8202]
+2020-01-12 11:52:18,130 INFO [client-io-thread-17]	connect to 127.0.0.1:8203 success, channel=[id: 0x3f1339fb, L:/127.0.0.1:49940 - R:/127.0.0.1:8203]
+2020-01-12 11:52:18,130 INFO [client-io-thread-18]	connect to 127.0.0.1:8203 success, channel=[id: 0xd2d176ea, L:/127.0.0.1:49941 - R:/127.0.0.1:8203]
+2020-01-12 11:52:18,131 INFO [client-io-thread-19]	connect to 127.0.0.1:8203 success, channel=[id: 0x4a725c9c, L:/127.0.0.1:49942 - R:/127.0.0.1:8203]
+2020-01-12 11:52:18,132 INFO [client-io-thread-20]	connect to 127.0.0.1:8203 success, channel=[id: 0x8ea1c8f7, L:/127.0.0.1:49943 - R:/127.0.0.1:8203]
+2020-01-12 11:52:18,133 INFO [client-io-thread-21]	connect to 127.0.0.1:8203 success, channel=[id: 0x25a4549c, L:/127.0.0.1:49944 - R:/127.0.0.1:8203]
+2020-01-12 11:52:18,133 INFO [client-io-thread-22]	connect to 127.0.0.1:8203 success, channel=[id: 0xf89d2ac0, L:/127.0.0.1:49945 - R:/127.0.0.1:8203]
+2020-01-12 11:52:18,134 INFO [client-io-thread-23]	connect to 127.0.0.1:8203 success, channel=[id: 0xac304f5b, L:/127.0.0.1:49946 - R:/127.0.0.1:8203]
+2020-01-12 11:52:18,134 INFO [client-io-thread-24]	connect to 127.0.0.1:8203 success, channel=[id: 0x87b49209, L:/127.0.0.1:49947 - R:/127.0.0.1:8203]
+2020-01-12 11:52:18,156 INFO [main]	use normal mode
+2020-01-12 11:52:18,174 INFO [main]	register service, com.github.wenweihu86.distkv.api.ProxyAPI.get
+2020-01-12 11:52:18,175 INFO [main]	register service, serviceName=com.github.wenweihu86.distkv.api.ProxyAPI, methodName=get
+2020-01-12 11:52:18,176 INFO [main]	register service, com.github.wenweihu86.distkv.api.ProxyAPI.delete
+2020-01-12 11:52:18,176 INFO [main]	register service, serviceName=com.github.wenweihu86.distkv.api.ProxyAPI, methodName=delete
+2020-01-12 11:52:18,177 INFO [main]	register service, com.github.wenweihu86.distkv.api.ProxyAPI.set
+2020-01-12 11:52:18,178 INFO [main]	register service, serviceName=com.github.wenweihu86.distkv.api.ProxyAPI, methodName=set
+2020-01-12 11:52:18,188 INFO [main]	server started on port=8001 success
+2020-01-12 12:00:54,656 INFO [main]	read conf server, ip=127.0.0.1, port=8101
+2020-01-12 12:00:54,657 INFO [main]	read conf server, ip=127.0.0.1, port=8102
+2020-01-12 12:00:54,657 INFO [main]	read conf server, ip=127.0.0.1, port=8103
+2020-01-12 12:00:54,657 INFO [main]	read conf server, ip=127.0.0.1, port=8201
+2020-01-12 12:00:54,657 INFO [main]	read conf server, ip=127.0.0.1, port=8202
+2020-01-12 12:00:54,658 INFO [main]	read conf server, ip=127.0.0.1, port=8203
+2020-01-12 12:00:54,658 INFO [main]	reading rpc client options conf, connect_timeout_ms=200, write_timeout_ms=200, read_timeout_ms=500
+2020-01-12 12:00:54,979 INFO [main]	reading rpc client options conf, connect_timeout_ms=200, write_timeout_ms=200, read_timeout_ms=500
+2020-01-12 12:00:54,995 INFO [client-io-thread-13]	connect to 127.0.0.1:8102 success, channel=[id: 0x680e30f3, L:/127.0.0.1:50259 - R:/127.0.0.1:8102]
+2020-01-12 12:00:54,995 INFO [client-io-thread-22]	connect to 127.0.0.1:8203 success, channel=[id: 0xa80d2746, L:/127.0.0.1:50297 - R:/127.0.0.1:8203]
+2020-01-12 12:00:54,995 INFO [client-io-thread-17]	connect to 127.0.0.1:8103 success, channel=[id: 0xfeb22df4, L:/127.0.0.1:50258 - R:/127.0.0.1:8103]
+2020-01-12 12:00:54,995 INFO [client-io-thread-21]	connect to 127.0.0.1:8203 success, channel=[id: 0x29c68566, L:/127.0.0.1:50296 - R:/127.0.0.1:8203]
+2020-01-12 12:00:54,995 INFO [client-io-thread-23]	connect to 127.0.0.1:8203 success, channel=[id: 0x34a994ce, L:/127.0.0.1:50298 - R:/127.0.0.1:8203]
+2020-01-12 12:00:54,995 INFO [client-io-thread-24]	connect to 127.0.0.1:8203 success, channel=[id: 0x1486e0a0, L:/127.0.0.1:50299 - R:/127.0.0.1:8203]
+2020-01-12 12:00:54,995 INFO [client-io-thread-10]	connect to 127.0.0.1:8102 success, channel=[id: 0xa3e5ff46, L:/127.0.0.1:50274 - R:/127.0.0.1:8102]
+2020-01-12 12:00:54,996 INFO [client-io-thread-19]	connect to 127.0.0.1:8103 success, channel=[id: 0xa083c054, L:/127.0.0.1:50261 - R:/127.0.0.1:8103]
+2020-01-12 12:00:54,996 INFO [client-io-thread-20]	connect to 127.0.0.1:8203 success, channel=[id: 0xedba7ae0, L:/127.0.0.1:50295 - R:/127.0.0.1:8203]
+2020-01-12 12:00:54,995 INFO [client-io-thread-22]	connect to 127.0.0.1:8103 success, channel=[id: 0xd123b970, L:/127.0.0.1:50260 - R:/127.0.0.1:8103]
+2020-01-12 12:00:54,996 INFO [client-io-thread-19]	connect to 127.0.0.1:8203 success, channel=[id: 0xcbddcd01, L:/127.0.0.1:50294 - R:/127.0.0.1:8203]
+2020-01-12 12:00:54,996 INFO [client-io-thread-5]	connect to 127.0.0.1:8101 success, channel=[id: 0x46ad33c2, L:/127.0.0.1:50257 - R:/127.0.0.1:8101]
+2020-01-12 12:00:54,996 INFO [client-io-thread-18]	connect to 127.0.0.1:8203 success, channel=[id: 0x0bb19f55, L:/127.0.0.1:50293 - R:/127.0.0.1:8203]
+2020-01-12 12:00:54,997 INFO [client-io-thread-11]	connect to 127.0.0.1:8102 success, channel=[id: 0x8446b56d, L:/127.0.0.1:50262 - R:/127.0.0.1:8102]
+2020-01-12 12:00:54,997 INFO [client-io-thread-17]	connect to 127.0.0.1:8203 success, channel=[id: 0xf0b5c669, L:/127.0.0.1:50292 - R:/127.0.0.1:8203]
+2020-01-12 12:00:54,997 INFO [client-io-thread-2]	connect to 127.0.0.1:8101 success, channel=[id: 0xd92a35de, L:/127.0.0.1:50263 - R:/127.0.0.1:8101]
+2020-01-12 12:00:54,997 INFO [client-io-thread-16]	connect to 127.0.0.1:8202 success, channel=[id: 0x8ab52c7b, L:/127.0.0.1:50291 - R:/127.0.0.1:8202]
+2020-01-12 12:00:54,997 INFO [client-io-thread-20]	connect to 127.0.0.1:8103 success, channel=[id: 0x0c529099, L:/127.0.0.1:50264 - R:/127.0.0.1:8103]
+2020-01-12 12:00:54,998 INFO [client-io-thread-3]	connect to 127.0.0.1:8101 success, channel=[id: 0x013ac15a, L:/127.0.0.1:50256 - R:/127.0.0.1:8101]
+2020-01-12 12:00:54,998 INFO [client-io-thread-15]	connect to 127.0.0.1:8202 success, channel=[id: 0x3cc192be, L:/127.0.0.1:50290 - R:/127.0.0.1:8202]
+2020-01-12 12:00:54,998 INFO [client-io-thread-14]	connect to 127.0.0.1:8202 success, channel=[id: 0x2281a862, L:/127.0.0.1:50289 - R:/127.0.0.1:8202]
+2020-01-12 12:00:54,998 INFO [client-io-thread-6]	connect to 127.0.0.1:8101 success, channel=[id: 0x36749e54, L:/127.0.0.1:50265 - R:/127.0.0.1:8101]
+2020-01-12 12:00:54,998 INFO [client-io-thread-13]	connect to 127.0.0.1:8202 success, channel=[id: 0x289e8dbb, L:/127.0.0.1:50288 - R:/127.0.0.1:8202]
+2020-01-12 12:00:54,998 INFO [client-io-thread-12]	connect to 127.0.0.1:8202 success, channel=[id: 0x2d1f888f, L:/127.0.0.1:50287 - R:/127.0.0.1:8202]
+2020-01-12 12:00:54,998 INFO [client-io-thread-21]	connect to 127.0.0.1:8103 success, channel=[id: 0xd6522735, L:/127.0.0.1:50266 - R:/127.0.0.1:8103]
+2020-01-12 12:00:54,999 INFO [client-io-thread-12]	connect to 127.0.0.1:8102 success, channel=[id: 0x3f7e6967, L:/127.0.0.1:50252 - R:/127.0.0.1:8102]
+2020-01-12 12:00:54,998 INFO [client-io-thread-11]	connect to 127.0.0.1:8202 success, channel=[id: 0xade64918, L:/127.0.0.1:50286 - R:/127.0.0.1:8202]
+2020-01-12 12:00:54,999 INFO [client-io-thread-8]	connect to 127.0.0.1:8201 success, channel=[id: 0x2f9ed6d5, L:/127.0.0.1:50283 - R:/127.0.0.1:8201]
+2020-01-12 12:00:54,999 INFO [client-io-thread-9]	connect to 127.0.0.1:8202 success, channel=[id: 0xab49bc07, L:/127.0.0.1:50284 - R:/127.0.0.1:8202]
+2020-01-12 12:00:54,998 INFO [client-io-thread-10]	connect to 127.0.0.1:8202 success, channel=[id: 0x3780935c, L:/127.0.0.1:50285 - R:/127.0.0.1:8202]
+2020-01-12 12:00:54,999 INFO [client-io-thread-7]	connect to 127.0.0.1:8201 success, channel=[id: 0x71f8c40b, L:/127.0.0.1:50282 - R:/127.0.0.1:8201]
+2020-01-12 12:00:54,999 INFO [client-io-thread-14]	connect to 127.0.0.1:8102 success, channel=[id: 0x36de95de, L:/127.0.0.1:50267 - R:/127.0.0.1:8102]
+2020-01-12 12:00:54,999 INFO [client-io-thread-6]	connect to 127.0.0.1:8201 success, channel=[id: 0x36d3db7e, L:/127.0.0.1:50281 - R:/127.0.0.1:8201]
+2020-01-12 12:00:55,000 INFO [client-io-thread-5]	connect to 127.0.0.1:8201 success, channel=[id: 0x4514dafd, L:/127.0.0.1:50280 - R:/127.0.0.1:8201]
+2020-01-12 12:00:55,000 INFO [client-io-thread-15]	connect to 127.0.0.1:8102 success, channel=[id: 0x3e68145e, L:/127.0.0.1:50268 - R:/127.0.0.1:8102]
+2020-01-12 12:00:55,000 INFO [client-io-thread-16]	connect to 127.0.0.1:8102 success, channel=[id: 0x263a70fc, L:/127.0.0.1:50255 - R:/127.0.0.1:8102]
+2020-01-12 12:00:55,000 INFO [client-io-thread-4]	connect to 127.0.0.1:8201 success, channel=[id: 0x88918095, L:/127.0.0.1:50279 - R:/127.0.0.1:8201]
+2020-01-12 12:00:55,000 INFO [client-io-thread-3]	connect to 127.0.0.1:8201 success, channel=[id: 0x50173e3d, L:/127.0.0.1:50278 - R:/127.0.0.1:8201]
+2020-01-12 12:00:55,001 INFO [client-io-thread-2]	connect to 127.0.0.1:8201 success, channel=[id: 0xa5fd70a5, L:/127.0.0.1:50277 - R:/127.0.0.1:8201]
+2020-01-12 12:00:55,001 INFO [client-io-thread-18]	connect to 127.0.0.1:8103 success, channel=[id: 0x20785cc5, L:/127.0.0.1:50269 - R:/127.0.0.1:8103]
+2020-01-12 12:00:55,001 INFO [client-io-thread-1]	connect to 127.0.0.1:8201 success, channel=[id: 0x2231383e, L:/127.0.0.1:50276 - R:/127.0.0.1:8201]
+2020-01-12 12:00:55,001 INFO [client-io-thread-23]	connect to 127.0.0.1:8103 success, channel=[id: 0x97bd98db, L:/127.0.0.1:50254 - R:/127.0.0.1:8103]
+2020-01-12 12:00:55,002 INFO [client-io-thread-24]	connect to 127.0.0.1:8103 success, channel=[id: 0x7cacb86f, L:/127.0.0.1:50271 - R:/127.0.0.1:8103]
+2020-01-12 12:00:55,002 INFO [client-io-thread-4]	connect to 127.0.0.1:8101 success, channel=[id: 0x788a9da0, L:/127.0.0.1:50270 - R:/127.0.0.1:8101]
+2020-01-12 12:00:55,002 INFO [client-io-thread-1]	connect to 127.0.0.1:8101 success, channel=[id: 0x1ce3dc6e, L:/127.0.0.1:50272 - R:/127.0.0.1:8101]
+2020-01-12 12:00:55,003 INFO [client-io-thread-7]	connect to 127.0.0.1:8101 success, channel=[id: 0xa6fc0377, L:/127.0.0.1:50253 - R:/127.0.0.1:8101]
+2020-01-12 12:00:55,003 INFO [client-io-thread-9]	connect to 127.0.0.1:8102 success, channel=[id: 0x14d888d7, L:/127.0.0.1:50275 - R:/127.0.0.1:8102]
+2020-01-12 12:00:55,004 INFO [client-io-thread-8]	connect to 127.0.0.1:8101 success, channel=[id: 0x3a4a549d, L:/127.0.0.1:50273 - R:/127.0.0.1:8101]
+2020-01-12 12:00:55,019 INFO [main]	use normal mode
+2020-01-12 12:00:55,034 INFO [main]	register service, com.github.wenweihu86.distkv.api.ProxyAPI.get
+2020-01-12 12:00:55,034 INFO [main]	register service, serviceName=com.github.wenweihu86.distkv.api.ProxyAPI, methodName=get
+2020-01-12 12:00:55,035 INFO [main]	register service, com.github.wenweihu86.distkv.api.ProxyAPI.delete
+2020-01-12 12:00:55,035 INFO [main]	register service, serviceName=com.github.wenweihu86.distkv.api.ProxyAPI, methodName=delete
+2020-01-12 12:00:55,036 INFO [main]	register service, com.github.wenweihu86.distkv.api.ProxyAPI.set
+2020-01-12 12:00:55,036 INFO [main]	register service, serviceName=com.github.wenweihu86.distkv.api.ProxyAPI, methodName=set
+2020-01-12 12:00:55,046 INFO [main]	server started on port=8001 success
+2020-01-12 12:01:28,082 INFO [main]	read conf server, ip=127.0.0.1, port=8101
+2020-01-12 12:01:28,083 INFO [main]	read conf server, ip=127.0.0.1, port=8102
+2020-01-12 12:01:28,083 INFO [main]	read conf server, ip=127.0.0.1, port=8103
+2020-01-12 12:01:28,084 INFO [main]	read conf server, ip=127.0.0.1, port=8201
+2020-01-12 12:01:28,084 INFO [main]	read conf server, ip=127.0.0.1, port=8202
+2020-01-12 12:01:28,084 INFO [main]	read conf server, ip=127.0.0.1, port=8203
+2020-01-12 12:01:28,085 INFO [main]	reading rpc client options conf, connect_timeout_ms=200, write_timeout_ms=200, read_timeout_ms=500
+2020-01-12 12:01:28,421 INFO [main]	reading rpc client options conf, connect_timeout_ms=200, write_timeout_ms=200, read_timeout_ms=500
+2020-01-12 12:01:28,441 INFO [client-io-thread-22]	connect to 127.0.0.1:8103 success, channel=[id: 0x34181e9b, L:/127.0.0.1:50331 - R:/127.0.0.1:8103]
+2020-01-12 12:01:28,441 INFO [client-io-thread-20]	connect to 127.0.0.1:8103 success, channel=[id: 0x24acd634, L:/127.0.0.1:50335 - R:/127.0.0.1:8103]
+2020-01-12 12:01:28,441 INFO [client-io-thread-15]	connect to 127.0.0.1:8102 success, channel=[id: 0xf778586b, L:/127.0.0.1:50334 - R:/127.0.0.1:8102]
+2020-01-12 12:01:28,441 INFO [client-io-thread-17]	connect to 127.0.0.1:8103 success, channel=[id: 0x03c70cec, L:/127.0.0.1:50333 - R:/127.0.0.1:8103]
+2020-01-12 12:01:28,441 INFO [client-io-thread-23]	connect to 127.0.0.1:8103 success, channel=[id: 0x82095db6, L:/127.0.0.1:50330 - R:/127.0.0.1:8103]
+2020-01-12 12:01:28,441 INFO [client-io-thread-6]	connect to 127.0.0.1:8101 success, channel=[id: 0x8cb8a27d, L:/127.0.0.1:50332 - R:/127.0.0.1:8101]
+2020-01-12 12:01:28,441 INFO [client-io-thread-24]	connect to 127.0.0.1:8103 success, channel=[id: 0xc10cce47, L:/127.0.0.1:50345 - R:/127.0.0.1:8103]
+2020-01-12 12:01:28,441 INFO [client-io-thread-13]	connect to 127.0.0.1:8102 success, channel=[id: 0x317b253d, L:/127.0.0.1:50336 - R:/127.0.0.1:8102]
+2020-01-12 12:01:28,442 INFO [client-io-thread-24]	connect to 127.0.0.1:8203 success, channel=[id: 0x4a697780, L:/127.0.0.1:50370 - R:/127.0.0.1:8203]
+2020-01-12 12:01:28,442 INFO [client-io-thread-23]	connect to 127.0.0.1:8203 success, channel=[id: 0xa1de3ef4, L:/127.0.0.1:50369 - R:/127.0.0.1:8203]
+2020-01-12 12:01:28,442 INFO [client-io-thread-18]	connect to 127.0.0.1:8103 success, channel=[id: 0xd81d2ed6, L:/127.0.0.1:50337 - R:/127.0.0.1:8103]
+2020-01-12 12:01:28,442 INFO [client-io-thread-22]	connect to 127.0.0.1:8203 success, channel=[id: 0x0acea535, L:/127.0.0.1:50368 - R:/127.0.0.1:8203]
+2020-01-12 12:01:28,443 INFO [client-io-thread-10]	connect to 127.0.0.1:8102 success, channel=[id: 0x373b01d7, L:/127.0.0.1:50329 - R:/127.0.0.1:8102]
+2020-01-12 12:01:28,443 INFO [client-io-thread-21]	connect to 127.0.0.1:8203 success, channel=[id: 0xc6868b47, L:/127.0.0.1:50367 - R:/127.0.0.1:8203]
+2020-01-12 12:01:28,443 INFO [client-io-thread-20]	connect to 127.0.0.1:8203 success, channel=[id: 0x9dc40c1a, L:/127.0.0.1:50366 - R:/127.0.0.1:8203]
+2020-01-12 12:01:28,443 INFO [client-io-thread-19]	connect to 127.0.0.1:8203 success, channel=[id: 0xdd3ef3d3, L:/127.0.0.1:50365 - R:/127.0.0.1:8203]
+2020-01-12 12:01:28,443 INFO [client-io-thread-18]	connect to 127.0.0.1:8203 success, channel=[id: 0x1a01c1a9, L:/127.0.0.1:50364 - R:/127.0.0.1:8203]
+2020-01-12 12:01:28,443 INFO [client-io-thread-17]	connect to 127.0.0.1:8203 success, channel=[id: 0x8060c3ab, L:/127.0.0.1:50363 - R:/127.0.0.1:8203]
+2020-01-12 12:01:28,443 INFO [client-io-thread-4]	connect to 127.0.0.1:8101 success, channel=[id: 0x79451705, L:/127.0.0.1:50338 - R:/127.0.0.1:8101]
+2020-01-12 12:01:28,443 INFO [client-io-thread-11]	connect to 127.0.0.1:8102 success, channel=[id: 0xf6f2342c, L:/127.0.0.1:50339 - R:/127.0.0.1:8102]
+2020-01-12 12:01:28,443 INFO [client-io-thread-15]	connect to 127.0.0.1:8202 success, channel=[id: 0x5efcd54a, L:/127.0.0.1:50361 - R:/127.0.0.1:8202]
+2020-01-12 12:01:28,443 INFO [client-io-thread-16]	connect to 127.0.0.1:8202 success, channel=[id: 0xb63a4b82, L:/127.0.0.1:50362 - R:/127.0.0.1:8202]
+2020-01-12 12:01:28,444 INFO [client-io-thread-9]	connect to 127.0.0.1:8102 success, channel=[id: 0x548d0789, L:/127.0.0.1:50328 - R:/127.0.0.1:8102]
+2020-01-12 12:01:28,444 INFO [client-io-thread-14]	connect to 127.0.0.1:8202 success, channel=[id: 0x40df9cd0, L:/127.0.0.1:50360 - R:/127.0.0.1:8202]
+2020-01-12 12:01:28,444 INFO [client-io-thread-3]	connect to 127.0.0.1:8101 success, channel=[id: 0x4d28ee22, L:/127.0.0.1:50340 - R:/127.0.0.1:8101]
+2020-01-12 12:01:28,444 INFO [client-io-thread-13]	connect to 127.0.0.1:8202 success, channel=[id: 0x57b17464, L:/127.0.0.1:50359 - R:/127.0.0.1:8202]
+2020-01-12 12:01:28,444 INFO [client-io-thread-12]	connect to 127.0.0.1:8202 success, channel=[id: 0x21787358, L:/127.0.0.1:50358 - R:/127.0.0.1:8202]
+2020-01-12 12:01:28,444 INFO [client-io-thread-11]	connect to 127.0.0.1:8202 success, channel=[id: 0xdbcba248, L:/127.0.0.1:50357 - R:/127.0.0.1:8202]
+2020-01-12 12:01:28,444 INFO [client-io-thread-1]	connect to 127.0.0.1:8101 success, channel=[id: 0xbd3b2782, L:/127.0.0.1:50342 - R:/127.0.0.1:8101]
+2020-01-12 12:01:28,444 INFO [client-io-thread-10]	connect to 127.0.0.1:8202 success, channel=[id: 0x443922a1, L:/127.0.0.1:50356 - R:/127.0.0.1:8202]
+2020-01-12 12:01:28,444 INFO [client-io-thread-14]	connect to 127.0.0.1:8102 success, channel=[id: 0xd46dd4d8, L:/127.0.0.1:50341 - R:/127.0.0.1:8102]
+2020-01-12 12:01:28,445 INFO [client-io-thread-8]	connect to 127.0.0.1:8101 success, channel=[id: 0x3b4f686e, L:/127.0.0.1:50327 - R:/127.0.0.1:8101]
+2020-01-12 12:01:28,445 INFO [client-io-thread-9]	connect to 127.0.0.1:8202 success, channel=[id: 0xf020789f, L:/127.0.0.1:50355 - R:/127.0.0.1:8202]
+2020-01-12 12:01:28,445 INFO [client-io-thread-8]	connect to 127.0.0.1:8201 success, channel=[id: 0xc0239f7a, L:/127.0.0.1:50354 - R:/127.0.0.1:8201]
+2020-01-12 12:01:28,445 INFO [client-io-thread-19]	connect to 127.0.0.1:8103 success, channel=[id: 0x03449052, L:/127.0.0.1:50343 - R:/127.0.0.1:8103]
+2020-01-12 12:01:28,445 INFO [client-io-thread-6]	connect to 127.0.0.1:8201 success, channel=[id: 0x2ee60776, L:/127.0.0.1:50352 - R:/127.0.0.1:8201]
+2020-01-12 12:01:28,445 INFO [client-io-thread-5]	connect to 127.0.0.1:8201 success, channel=[id: 0x162232d8, L:/127.0.0.1:50351 - R:/127.0.0.1:8201]
+2020-01-12 12:01:28,445 INFO [client-io-thread-7]	connect to 127.0.0.1:8201 success, channel=[id: 0x4a718af4, L:/127.0.0.1:50353 - R:/127.0.0.1:8201]
+2020-01-12 12:01:28,446 INFO [client-io-thread-21]	connect to 127.0.0.1:8103 success, channel=[id: 0x47211267, L:/127.0.0.1:50323 - R:/127.0.0.1:8103]
+2020-01-12 12:01:28,447 INFO [client-io-thread-16]	connect to 127.0.0.1:8102 success, channel=[id: 0x1ed851f4, L:/127.0.0.1:50326 - R:/127.0.0.1:8102]
+2020-01-12 12:01:28,448 INFO [client-io-thread-12]	connect to 127.0.0.1:8102 success, channel=[id: 0xb15a330f, L:/127.0.0.1:50324 - R:/127.0.0.1:8102]
+2020-01-12 12:01:28,449 INFO [client-io-thread-5]	connect to 127.0.0.1:8101 success, channel=[id: 0x8467eabf, L:/127.0.0.1:50325 - R:/127.0.0.1:8101]
+2020-01-12 12:01:28,449 INFO [client-io-thread-2]	connect to 127.0.0.1:8101 success, channel=[id: 0x9c008315, L:/127.0.0.1:50346 - R:/127.0.0.1:8101]
+2020-01-12 12:01:28,450 INFO [client-io-thread-4]	connect to 127.0.0.1:8201 success, channel=[id: 0x6112a834, L:/127.0.0.1:50350 - R:/127.0.0.1:8201]
+2020-01-12 12:01:28,451 INFO [client-io-thread-1]	connect to 127.0.0.1:8201 success, channel=[id: 0x38aa5be8, L:/127.0.0.1:50347 - R:/127.0.0.1:8201]
+2020-01-12 12:01:28,453 INFO [client-io-thread-7]	connect to 127.0.0.1:8101 success, channel=[id: 0x959584a5, L:/127.0.0.1:50344 - R:/127.0.0.1:8101]
+2020-01-12 12:01:28,453 INFO [client-io-thread-2]	connect to 127.0.0.1:8201 success, channel=[id: 0x6e3866d5, L:/127.0.0.1:50348 - R:/127.0.0.1:8201]
+2020-01-12 12:01:28,454 INFO [client-io-thread-3]	connect to 127.0.0.1:8201 success, channel=[id: 0x3cf22229, L:/127.0.0.1:50349 - R:/127.0.0.1:8201]
+2020-01-12 12:01:28,461 INFO [main]	use normal mode
+2020-01-12 12:01:28,474 INFO [main]	register service, com.github.wenweihu86.distkv.api.ProxyAPI.get
+2020-01-12 12:01:28,475 INFO [main]	register service, serviceName=com.github.wenweihu86.distkv.api.ProxyAPI, methodName=get
+2020-01-12 12:01:28,476 INFO [main]	register service, com.github.wenweihu86.distkv.api.ProxyAPI.delete
+2020-01-12 12:01:28,476 INFO [main]	register service, serviceName=com.github.wenweihu86.distkv.api.ProxyAPI, methodName=delete
+2020-01-12 12:01:28,477 INFO [main]	register service, com.github.wenweihu86.distkv.api.ProxyAPI.set
+2020-01-12 12:01:28,477 INFO [main]	register service, serviceName=com.github.wenweihu86.distkv.api.ProxyAPI, methodName=set
+2020-01-12 12:01:28,487 INFO [main]	server started on port=8001 success
+2020-01-12 12:01:41,908 INFO [worker-thread-1]	proxy server set request, key=hello, resCode=RES_CODE_SUCCESS, resMsg=
+2020-01-12 12:02:24,031 INFO [worker-thread-2]	proxy server set request, key=hello, resCode=RES_CODE_SUCCESS, resMsg=
+2020-01-12 12:02:24,044 INFO [worker-thread-3]	proxy server set request, key=hello, resCode=RES_CODE_SUCCESS, resMsg=
+2020-01-12 12:07:46,049 INFO [main]	read conf server, ip=127.0.0.1, port=8101
+2020-01-12 12:07:46,882 INFO [main]	read conf server, ip=127.0.0.1, port=8102
+2020-01-12 12:07:47,491 INFO [main]	read conf server, ip=127.0.0.1, port=8103
+2020-01-12 12:10:26,094 INFO [main]	read conf server, ip=127.0.0.1, port=8201
+2020-01-12 12:10:26,095 INFO [main]	read conf server, ip=127.0.0.1, port=8202
+2020-01-12 12:10:26,095 INFO [main]	read conf server, ip=127.0.0.1, port=8203
+2020-01-12 12:11:31,187 INFO [main]	reading rpc client options conf, connect_timeout_ms=200, write_timeout_ms=200, read_timeout_ms=500
+2020-01-12 12:15:06,817 INFO [client-io-thread-15]	connect to 127.0.0.1:8102 success, channel=[id: 0xde0ce3f9, L:/127.0.0.1:50661 - R:/127.0.0.1:8102]
+2020-01-12 12:15:06,817 INFO [client-io-thread-8]	connect to 127.0.0.1:8101 success, channel=[id: 0x001499cb, L:/127.0.0.1:50662 - R:/127.0.0.1:8101]
+2020-01-12 12:15:06,817 INFO [client-io-thread-2]	connect to 127.0.0.1:8101 success, channel=[id: 0x65dd2762, L:/127.0.0.1:50654 - R:/127.0.0.1:8101]
+2020-01-12 12:15:06,817 INFO [client-io-thread-21]	connect to 127.0.0.1:8103 success, channel=[id: 0xcfe38d98, L:/127.0.0.1:50648 - R:/127.0.0.1:8103]
+2020-01-12 12:15:06,817 INFO [client-io-thread-3]	connect to 127.0.0.1:8101 success, channel=[id: 0x01412252, L:/127.0.0.1:50649 - R:/127.0.0.1:8101]
+2020-01-12 12:15:06,818 INFO [client-io-thread-19]	connect to 127.0.0.1:8103 success, channel=[id: 0x636b06f2, L:/127.0.0.1:50646 - R:/127.0.0.1:8103]
+2020-01-12 12:15:06,817 INFO [client-io-thread-6]	connect to 127.0.0.1:8101 success, channel=[id: 0xbd7f81df, L:/127.0.0.1:50651 - R:/127.0.0.1:8101]
+2020-01-12 12:15:06,817 INFO [client-io-thread-24]	connect to 127.0.0.1:8103 success, channel=[id: 0x051f0ad5, L:/127.0.0.1:50657 - R:/127.0.0.1:8103]
+2020-01-12 12:15:06,818 INFO [client-io-thread-23]	connect to 127.0.0.1:8103 success, channel=[id: 0x8a97115a, L:/127.0.0.1:50652 - R:/127.0.0.1:8103]
+2020-01-12 12:15:06,818 INFO [client-io-thread-11]	connect to 127.0.0.1:8102 success, channel=[id: 0xf4665a03, L:/127.0.0.1:50653 - R:/127.0.0.1:8102]
+2020-01-12 12:15:06,817 INFO [client-io-thread-20]	connect to 127.0.0.1:8103 success, channel=[id: 0xd6766a56, L:/127.0.0.1:50647 - R:/127.0.0.1:8103]
+2020-01-12 12:15:06,817 INFO [client-io-thread-4]	connect to 127.0.0.1:8101 success, channel=[id: 0x3c379435, L:/127.0.0.1:50656 - R:/127.0.0.1:8101]
+2020-01-12 12:15:06,818 INFO [client-io-thread-18]	connect to 127.0.0.1:8103 success, channel=[id: 0xbf74c0ed, L:/127.0.0.1:50664 - R:/127.0.0.1:8103]
+2020-01-12 12:15:06,818 INFO [client-io-thread-10]	connect to 127.0.0.1:8102 success, channel=[id: 0xd066afaa, L:/127.0.0.1:50659 - R:/127.0.0.1:8102]
+2020-01-12 12:15:06,818 INFO [client-io-thread-22]	connect to 127.0.0.1:8103 success, channel=[id: 0x372a9b88, L:/127.0.0.1:50650 - R:/127.0.0.1:8103]
+2020-01-12 12:15:06,817 INFO [client-io-thread-5]	connect to 127.0.0.1:8101 success, channel=[id: 0x8cec06c0, L:/127.0.0.1:50658 - R:/127.0.0.1:8101]
+2020-01-12 12:15:06,817 INFO [client-io-thread-14]	connect to 127.0.0.1:8102 success, channel=[id: 0x504a57f3, L:/127.0.0.1:50663 - R:/127.0.0.1:8102]
+2020-01-12 12:15:06,821 INFO [client-io-thread-17]	connect to 127.0.0.1:8103 success, channel=[id: 0xe3eb1cbc, L:/127.0.0.1:50665 - R:/127.0.0.1:8103]
+2020-01-12 12:15:06,817 INFO [client-io-thread-7]	connect to 127.0.0.1:8101 success, channel=[id: 0x498de616, L:/127.0.0.1:50655 - R:/127.0.0.1:8101]
+2020-01-12 12:15:06,822 INFO [client-io-thread-12]	connect to 127.0.0.1:8102 success, channel=[id: 0xf1e9e9c1, L:/127.0.0.1:50666 - R:/127.0.0.1:8102]
+2020-01-12 12:15:06,822 INFO [client-io-thread-16]	connect to 127.0.0.1:8102 success, channel=[id: 0x76287b1e, L:/127.0.0.1:50668 - R:/127.0.0.1:8102]
+2020-01-12 12:15:06,823 INFO [client-io-thread-1]	connect to 127.0.0.1:8101 success, channel=[id: 0x36581daa, L:/127.0.0.1:50667 - R:/127.0.0.1:8101]
+2020-01-12 12:15:06,824 INFO [client-io-thread-9]	connect to 127.0.0.1:8102 success, channel=[id: 0x2b29fdbb, L:/127.0.0.1:50669 - R:/127.0.0.1:8102]
+2020-01-12 12:15:06,824 INFO [client-io-thread-13]	connect to 127.0.0.1:8102 success, channel=[id: 0x921008d8, L:/127.0.0.1:50660 - R:/127.0.0.1:8102]
+2020-01-12 12:15:07,041 INFO [main]	reading rpc client options conf, connect_timeout_ms=200, write_timeout_ms=200, read_timeout_ms=500
+2020-01-12 12:15:07,045 INFO [client-io-thread-1]	connect to 127.0.0.1:8201 success, channel=[id: 0x08384174, L:/127.0.0.1:50670 - R:/127.0.0.1:8201]
+2020-01-12 12:15:07,046 INFO [client-io-thread-2]	connect to 127.0.0.1:8201 success, channel=[id: 0xe9e2a036, L:/127.0.0.1:50671 - R:/127.0.0.1:8201]
+2020-01-12 12:15:07,047 INFO [client-io-thread-3]	connect to 127.0.0.1:8201 success, channel=[id: 0x42c92b54, L:/127.0.0.1:50672 - R:/127.0.0.1:8201]
+2020-01-12 12:15:07,048 INFO [client-io-thread-4]	connect to 127.0.0.1:8201 success, channel=[id: 0x78b46818, L:/127.0.0.1:50673 - R:/127.0.0.1:8201]
+2020-01-12 12:15:07,049 INFO [client-io-thread-5]	connect to 127.0.0.1:8201 success, channel=[id: 0x0468d455, L:/127.0.0.1:50674 - R:/127.0.0.1:8201]
+2020-01-12 12:15:07,050 INFO [client-io-thread-6]	connect to 127.0.0.1:8201 success, channel=[id: 0x45955a42, L:/127.0.0.1:50675 - R:/127.0.0.1:8201]
+2020-01-12 12:15:07,051 INFO [client-io-thread-7]	connect to 127.0.0.1:8201 success, channel=[id: 0x9afb1f9b, L:/127.0.0.1:50676 - R:/127.0.0.1:8201]
+2020-01-12 12:15:07,052 INFO [client-io-thread-8]	connect to 127.0.0.1:8201 success, channel=[id: 0x2c102959, L:/127.0.0.1:50677 - R:/127.0.0.1:8201]
+2020-01-12 12:15:07,052 INFO [client-io-thread-9]	connect to 127.0.0.1:8202 success, channel=[id: 0xfd228fbb, L:/127.0.0.1:50678 - R:/127.0.0.1:8202]
+2020-01-12 12:15:07,053 INFO [client-io-thread-10]	connect to 127.0.0.1:8202 success, channel=[id: 0xeb14d476, L:/127.0.0.1:50679 - R:/127.0.0.1:8202]
+2020-01-12 12:15:07,054 INFO [client-io-thread-11]	connect to 127.0.0.1:8202 success, channel=[id: 0x4002380e, L:/127.0.0.1:50680 - R:/127.0.0.1:8202]
+2020-01-12 12:15:07,055 INFO [client-io-thread-12]	connect to 127.0.0.1:8202 success, channel=[id: 0x37a38b85, L:/127.0.0.1:50681 - R:/127.0.0.1:8202]
+2020-01-12 12:15:07,056 INFO [client-io-thread-13]	connect to 127.0.0.1:8202 success, channel=[id: 0xbdb806db, L:/127.0.0.1:50682 - R:/127.0.0.1:8202]
+2020-01-12 12:15:07,056 INFO [client-io-thread-14]	connect to 127.0.0.1:8202 success, channel=[id: 0x623f5426, L:/127.0.0.1:50683 - R:/127.0.0.1:8202]
+2020-01-12 12:15:07,057 INFO [client-io-thread-15]	connect to 127.0.0.1:8202 success, channel=[id: 0xfad73c3c, L:/127.0.0.1:50684 - R:/127.0.0.1:8202]
+2020-01-12 12:15:07,058 INFO [client-io-thread-16]	connect to 127.0.0.1:8202 success, channel=[id: 0x3ba6a4ee, L:/127.0.0.1:50685 - R:/127.0.0.1:8202]
+2020-01-12 12:15:07,059 INFO [client-io-thread-17]	connect to 127.0.0.1:8203 success, channel=[id: 0xf4909574, L:/127.0.0.1:50686 - R:/127.0.0.1:8203]
+2020-01-12 12:15:07,059 INFO [client-io-thread-18]	connect to 127.0.0.1:8203 success, channel=[id: 0x0fca90dd, L:/127.0.0.1:50687 - R:/127.0.0.1:8203]
+2020-01-12 12:15:07,060 INFO [client-io-thread-19]	connect to 127.0.0.1:8203 success, channel=[id: 0x0480bd63, L:/127.0.0.1:50688 - R:/127.0.0.1:8203]
+2020-01-12 12:15:07,061 INFO [client-io-thread-20]	connect to 127.0.0.1:8203 success, channel=[id: 0x5ecac876, L:/127.0.0.1:50689 - R:/127.0.0.1:8203]
+2020-01-12 12:15:07,061 INFO [client-io-thread-21]	connect to 127.0.0.1:8203 success, channel=[id: 0x035a0aa3, L:/127.0.0.1:50690 - R:/127.0.0.1:8203]
+2020-01-12 12:15:07,062 INFO [client-io-thread-22]	connect to 127.0.0.1:8203 success, channel=[id: 0xd07e003e, L:/127.0.0.1:50691 - R:/127.0.0.1:8203]
+2020-01-12 12:15:07,063 INFO [client-io-thread-23]	connect to 127.0.0.1:8203 success, channel=[id: 0x376fdb33, L:/127.0.0.1:50692 - R:/127.0.0.1:8203]
+2020-01-12 12:15:07,063 INFO [client-io-thread-24]	connect to 127.0.0.1:8203 success, channel=[id: 0x67a92415, L:/127.0.0.1:50693 - R:/127.0.0.1:8203]
+2020-01-12 12:15:28,863 INFO [main]	use normal mode
+2020-01-12 12:15:28,880 INFO [main]	register service, com.github.wenweihu86.distkv.api.ProxyAPI.get
+2020-01-12 12:15:28,880 INFO [main]	register service, serviceName=com.github.wenweihu86.distkv.api.ProxyAPI, methodName=get
+2020-01-12 12:15:28,881 INFO [main]	register service, com.github.wenweihu86.distkv.api.ProxyAPI.delete
+2020-01-12 12:15:28,881 INFO [main]	register service, serviceName=com.github.wenweihu86.distkv.api.ProxyAPI, methodName=delete
+2020-01-12 12:15:28,882 INFO [main]	register service, com.github.wenweihu86.distkv.api.ProxyAPI.set
+2020-01-12 12:15:28,882 INFO [main]	register service, serviceName=com.github.wenweihu86.distkv.api.ProxyAPI, methodName=set
+2020-01-12 12:15:28,893 INFO [main]	server started on port=8001 success
+2020-01-12 12:36:12,664 INFO [worker-thread-3]	proxy server set request, key=hello, resCode=RES_CODE_SUCCESS, resMsg=
+2020-01-12 12:36:12,664 INFO [worker-thread-2]	proxy server set request, key=hello, resCode=RES_CODE_SUCCESS, resMsg=
+2020-01-12 12:36:12,664 INFO [worker-thread-1]	proxy server set request, key=hello, resCode=RES_CODE_SUCCESS, resMsg=

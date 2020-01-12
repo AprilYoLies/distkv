@@ -40,7 +40,7 @@ public class MetaAPIImpl implements MetaAPI {
             MetaMessage.SetResponse responseFromLeader = storeAPI.set(request);
             responseBuilder.mergeFrom(responseFromLeader);
         } else {
-            // 数据同步写入raft集群
+            // 数据同步写入raft集群，构建 RaftDataPacket，持有 CommonMessage.RaftMetaData 和 Message（ProtoBuf 消息）
             RaftDataPacket packet = RaftDataPacket.buildPacket(CommonMessage.RequestType.SET, request);
             byte[] data = RaftDataPacket.encode(packet);
             boolean success = raftNode.replicate(data, RaftMessage.EntryType.ENTRY_TYPE_DATA);
